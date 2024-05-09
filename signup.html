@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eriq Blessings">
+        <meta name="description" content="Offical website for xenogames">
+        <title>xenogames.com</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="signup.css">
+
+    <title>Sign up</title>
+</head>
+<body>
+    <header>
+            <div class="main">
+                <div class="content">
+                   
+                    <form action="signup.php" method="post" class="form-signup">
+                
+                        <h1>Signup</h1>
+                        <br>
+                        <p>
+                        <label for="firstName"> First Name: </label>
+                        <input type="text" name="firstName" id="firstName" placeholder="jane" autocomplete="on" required > 
+                        </p>
+                        <br>
+                        <p>
+                        <label for="lastName"> Last Name: </label>
+                        <input type="text" name="lastName" id="lastName" placeholder="doe" autocomplete="on" required > 
+                        </p>
+                        <br>
+                        <p>
+                        <label for="password"> Password: </label>
+                        <input type="password" name="password" id="password" placeholder="8 charaters" required> 
+                        </p>
+                        <br>
+                        <p>
+                        <label for="Phonenumber"> Phone number: </label>
+                        <input type="tel" name="phonenumber" id="phonenumber" placeholder="256712345678" pattern="[0-9]{3}[0-9]{3}[0-9]{3}[0-9]{3}" required> 
+                        </p>
+                        <br>
+                        <p>
+                        <label for="year"> Favorite year of release: </label>
+                        <input type="number" name="year" id="year" min="2000" max="2025" step="1" value="2000"> 
+                        </p>
+                        <br>
+                        <p>
+                         <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" placeholder="welcome123@gmail.com" required>
+                        </p>
+                        <br>
+                        <p>
+                            <label for="games">Favorite Games: </label>
+                            <input type="text" name="games" id="games" list="Games-list">
+                            <datalist id="Games-list">
+                                    <option value="Call of Duty">
+                                    <option value="God of War">
+                                    <option value="Need for Speed">
+                                    <option value="Assassin's Creed">
+                                    <option value="Tomb Raider">
+                                    <option value="Metal of Honor">
+                                    <option value="Far Cry">
+                                    <option value="GTA">
+                                    <option value="BLUR">
+                                    <option value="Devil May Cry">
+                                    <option value="Resident Evil">
+                                    <option value="Mortal Combat">
+                                    <option value="Other">
+                            </datalist>
+                        </p>
+                        <br>
+                        &nbsp;<button type="signup" class="signup-button">Signup</button>
+                        &nbsp;<button type="reset" class="reset-button">Reset</button>
+                  
+                    
+                    </form>
+        
+                </div>
+            
+            </div>
+            <footer>
+                &lt;&lt;&lt; &copy; <a href="./login.html">LOGIN</a> &gt;&gt;&gt;
+                <p> Copyright &copy; Xenogames</p>
+                <p><a href="./">Back to home</a></p>
+            </footer>
+    </header> 
+</body>
+</html>

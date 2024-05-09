@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Login page</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet"  href="login.css">
+<link rel="stylesheet"  href="main.css">
+</head>
+
+<body>
+<div class="bg">
+	<div class="content">
+		<header>LOGIN</header>
+		<form action="login.php" method="post">
+			<div class="field">
+				<span class="user"></span>
+				<input type="text" name="email" required placeholder="Please enter email"required>
+			</div>
+
+			<div class="fieldspace">
+				<span class="lock"></span>
+				<input type="password" name="password" class="pass-key" required placeholder="Password"required>
+			</div>
+
+			<div class="pass">
+				<label><input type="checkbox">Remember me</label>
+				&nbsp; <a href="#">Forgot Password?</a>		
+			</div>
+			<div class="field">
+				<input type="submit" value="LOGIN">
+				
+			</div>
+			
+		</form>
+		
+		<div class="signup">
+			<p>Do not have account?<a href="signup.html">&nbsp;&nbsp;Signup</a></p>
+			
+		</div>
+		<div>
+			<a href="./">Back to home</a>
+		</div>
+		
+	</div>
+	
+</div>	
+
+</body>
+
+</html>
